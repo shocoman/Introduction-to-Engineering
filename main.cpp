@@ -7,8 +7,8 @@
 int main() {
     float a = 0.0, b = 0.0, s = 0.0, p = 0.0;
 
-    printf("Enter the dimensions of the rectangle: "); //Ввведите размеры прямоугольника
-    scanf("%f", &a);
+    printf("Enter the dimensions of the rectangle: "); //Делаем запрос
+    scanf("%f", &a);                                   //Считываем данные с клаваиатуры
     scanf("%f", &b);
 
     s = a * b;
