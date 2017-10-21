@@ -11,6 +11,7 @@
 </ul>
 <br>
 <h5> 
+<p>You can offer an addition to the program, for this send me a pull request</p> <br>
 <p>© 2017</p>
 <p>ivas1ly, SFU</p>
 </h5>
