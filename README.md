@@ -10,5 +10,7 @@
   <li>2) Calculating the perimeter</li>
 </ul>
 <br>
+<h5> 
 <p>© 2017</p>
 <p>ivas1ly, SFU</p>
+</h5>
