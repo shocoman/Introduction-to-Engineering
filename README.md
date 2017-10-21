@@ -1,4 +1,4 @@
-#Finding the area and perimeter of a given rectangle
+<h1>Finding the area and perimeter of a given rectangle</h1>
 
 <p>This program can find the perimeter and area of the shape</p>
 <br>
