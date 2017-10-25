@@ -1,23 +1,19 @@
 #include <iostream>
-#include <conio.h>
-#include "math.h"
+using namespace std;
 
-//Нахождение площади и периметра заданного прямоугольника
+int main(int argc, char** argv) {
+	setlocale(LC_CTYPE, "Russian");
+	double a = 0.0, b = 0.0, s = 0.0, p = 0.0;
 
-int main() {
-    float a = 0.0, b = 0.0, s = 0.0, p = 0.0;
+	cout << "Введите длину и ширину треугольника: ";
+	cin >> a >> b;
 
-    printf("Enter the dimensions of the rectangle: "); //Делаем запрос 1
-    scanf("%f", &a);                                   //Считываем данные с клаваиатуры 2
-    scanf("%f", &b);
+	s = a * b;
+	p = 2 * (a + b);
 
-    s = a * b;                                          //Делаем расчёты 3
-    p = 2.0 * (a + b);
+	cout << "Площадь треугольника: " << s << endl;
+	cout << "Периметер треугольника: " << p << endl;
 
-    printf("\nArea of the rectangle = %f", s);
-    printf("\nPerimeter of the rectangle = %f", p);     //Производим вывод результата
-
-
-    getch();
-    return 0;
+	cin.get(); cin.get();
+	return 0;
 }
