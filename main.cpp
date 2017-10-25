@@ -13,7 +13,6 @@ int main(int argc, char** argv) {
 
 	cout << "Площадь треугольника: " << s << endl;
 	cout << "Периметер треугольника: " << p << endl;
-
 	cin.get(); cin.get();
 	return 0;
 }
